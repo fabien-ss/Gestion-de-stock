@@ -1,6 +1,7 @@
 <%@page import="java.util.Vector, objet.Stock, objet.Commercial, objet.CategorieProduit" contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
+;
     Vector<Commercial> commercials = (Vector) request.getAttribute("commercials");
     Vector<CategorieProduit> categories = (Vector) request.getAttribute("categories");
     Vector<Stock> stock = (Vector) request.getAttribute("stock");
